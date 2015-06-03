@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ContentViewController : UIViewController
+@interface ContentViewController : UIViewController<UITableViewDelegate, UITableViewDataSource >
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
