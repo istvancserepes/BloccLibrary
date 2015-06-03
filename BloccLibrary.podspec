@@ -6,8 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/istvancserepes/BloccLibrary'
 
   s.requires_arc = true
-  s.platform = :ios
-  s.ios.deployment_target = ‘7.0’
+  s.platform = :ios, '7.0'
 
   s.author = { 'istvancserepes' => 'istvan.cserepes@mmsone.com' }
   
