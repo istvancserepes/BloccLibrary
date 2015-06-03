@@ -27,7 +27,7 @@
     /**
      Register table view cells
      */
-    [self.tableView registerNib:[UINib nibWithNibName:@"RatingTableViewCell" bundle:nil] forCellReuseIdentifier:NSStringFromClass([PostTableViewCell class])];
+    [self.tableView registerNib:[UINib nibWithNibName:@"RatingTableViewCell" bundle:nil] forCellReuseIdentifier:NSStringFromClass([RatingTableViewCell class])];
     
 }
 
@@ -50,7 +50,7 @@
         
         [self configureRatingCell:ratingCell atIndexPath:indexPath];
         
-        return postCell;
+        return ratingCell;
   //  }
 //    else if ([item isKindOfClass:[Task class]])
 //    {

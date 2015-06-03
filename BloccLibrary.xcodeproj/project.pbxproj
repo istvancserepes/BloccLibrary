@@ -15,18 +15,7 @@
 		537F2C081B1F39130063A64E /* RatingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537F2C061B1F39130063A64E /* RatingTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		537F2BF31B1F36F80063A64E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 537F2BEE1B1F36F70063A64E /* Example.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 537F2BC51B1F36F70063A64E;
-			remoteInfo = Example;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		537F2BEE1B1F36F70063A64E /* Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Example.xcodeproj; path = Example/Example.xcodeproj; sourceTree = "<group>"; };
 		537F2BF71B1F37B20063A64E /* InfotainmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfotainmentViewController.h; sourceTree = "<group>"; };
 		537F2BF81B1F37B30063A64E /* InfotainmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfotainmentViewController.m; sourceTree = "<group>"; };
 		537F2BF91B1F37B30063A64E /* InfotainmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfotainmentViewController.xib; sourceTree = "<group>"; };
@@ -53,7 +42,6 @@
 		537F2B761B1F0FCD0063A64E = {
 			isa = PBXGroup;
 			children = (
-				537F2BEE1B1F36F70063A64E /* Example.xcodeproj */,
 				537F2B811B1F0FCD0063A64E /* BloccLibrary */,
 				537F2BFD1B1F38B40063A64E /* BloccLibrary.app */,
 			);
@@ -73,14 +61,6 @@
 				537F2C061B1F39130063A64E /* RatingTableViewCell.xib */,
 			);
 			path = BloccLibrary;
-			sourceTree = "<group>";
-		};
-		537F2BEF1B1F36F70063A64E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				537F2BF41B1F36F80063A64E /* Example.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,28 +108,12 @@
 			mainGroup = 537F2B761B1F0FCD0063A64E;
 			productRefGroup = 537F2B761B1F0FCD0063A64E;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 537F2BEF1B1F36F70063A64E /* Products */;
-					ProjectRef = 537F2BEE1B1F36F70063A64E /* Example.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				537F2B7E1B1F0FCD0063A64E /* BloccLibrary */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		537F2BF41B1F36F80063A64E /* Example.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Example.app;
-			remoteRef = 537F2BF31B1F36F80063A64E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		537F2B7D1B1F0FCD0063A64E /* Resources */ = {
