@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		537F2B9F1B1F0FCD0063A64E /* BloccLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 537F2B9E1B1F0FCD0063A64E /* BloccLibraryTests.m */; };
 		537F2BAB1B1F10AD0063A64E /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537F2BA91B1F10AD0063A64E /* ContentViewController.m */; };
 		537F2BAC1B1F10AD0063A64E /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537F2BAA1B1F10AD0063A64E /* ContentViewController.xib */; };
 /* End PBXBuildFile section */
@@ -25,8 +24,6 @@
 /* Begin PBXFileReference section */
 		537F2B7F1B1F0FCD0063A64E /* BloccLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloccLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537F2B981B1F0FCD0063A64E /* BloccLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloccLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		537F2B9D1B1F0FCD0063A64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		537F2B9E1B1F0FCD0063A64E /* BloccLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloccLibraryTests.m; sourceTree = "<group>"; };
 		537F2BA81B1F10AD0063A64E /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		537F2BA91B1F10AD0063A64E /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		537F2BAA1B1F10AD0063A64E /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
@@ -54,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				537F2B811B1F0FCD0063A64E /* BloccLibrary */,
-				537F2B9B1B1F0FCD0063A64E /* BloccLibraryTests */,
 				537F2B801B1F0FCD0063A64E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,23 +72,6 @@
 				537F2BAD1B1F10D80063A64E /* Views */,
 			);
 			path = BloccLibrary;
-			sourceTree = "<group>";
-		};
-		537F2B9B1B1F0FCD0063A64E /* BloccLibraryTests */ = {
-			isa = PBXGroup;
-			children = (
-				537F2B9E1B1F0FCD0063A64E /* BloccLibraryTests.m */,
-				537F2B9C1B1F0FCD0063A64E /* Supporting Files */,
-			);
-			path = BloccLibraryTests;
-			sourceTree = "<group>";
-		};
-		537F2B9C1B1F0FCD0063A64E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				537F2B9D1B1F0FCD0063A64E /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		537F2BAD1B1F10D80063A64E /* Views */ = {
@@ -209,7 +188,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				537F2B9F1B1F0FCD0063A64E /* BloccLibraryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BloccLibrary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -319,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BloccLibrary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -377,6 +357,7 @@
 				537F2BA41B1F0FCD0063A64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		537F2BA51B1F0FCD0063A64E /* Build configuration list for PBXNativeTarget "BloccLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -385,6 +366,7 @@
 				537F2BA71B1F0FCD0063A64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
