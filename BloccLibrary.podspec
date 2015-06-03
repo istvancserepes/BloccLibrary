@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'BloccLibrary'
-  s.version = ‘0.0.2’
+  s.version = '0.0.1'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.summary = 'BloccLibraryTest'
   s.homepage = 'https://github.com/istvancserepes/BloccLibrary'
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   
   s.source_files = 'BloccLibrary/**/*.{h,m}'
   s.resources = ['BloccLibrary/ContentViewController.xib' , 'BloccLibrary/InfotainmentViewController.xib’, 'BloccLibrary/RatingTableViewCell.xib']
-  s.source = { :git => 'https://github.com/istvancserepes/BloccLibrary.git', :tag => ‘0.0.2’ }
+  s.source = { :git => 'https://github.com/istvancserepes/BloccLibrary.git', :tag => '0.0.1' }
 end
