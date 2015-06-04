@@ -19,7 +19,7 @@
 		537F2BF71B1F37B20063A64E /* InfotainmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfotainmentViewController.h; sourceTree = "<group>"; };
 		537F2BF81B1F37B30063A64E /* InfotainmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfotainmentViewController.m; sourceTree = "<group>"; };
 		537F2BF91B1F37B30063A64E /* InfotainmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfotainmentViewController.xib; sourceTree = "<group>"; };
-		537F2BFD1B1F38B40063A64E /* BloccLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloccLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		537F2BFD1B1F38B40063A64E /* BloccLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BloccLibrary.app; path = "/Users/istvancserepes/Desktop/BloccLibrary/build/Debug-iphoneos/BloccLibrary.app"; sourceTree = "<absolute>"; };
 		537F2BFF1B1F38C60063A64E /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		537F2C001B1F38C60063A64E /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		537F2C011B1F38C60063A64E /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
@@ -43,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				537F2B811B1F0FCD0063A64E /* BloccLibrary */,
-				537F2BFD1B1F38B40063A64E /* BloccLibrary.app */,
 			);
 			sourceTree = "<group>";
 		};
