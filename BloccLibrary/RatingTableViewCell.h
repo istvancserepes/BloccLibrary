@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface RatingTableViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UIView *cardView;
 @property (weak, nonatomic) IBOutlet UIView *titleLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *contentImage;
 
 @end
